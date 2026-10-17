@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from the logo artwork: do not edit by hand. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:name="echo_2"
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M25.43 41.81L25.43 48.96C25.43 51.8 26.46 54.53 28.33 56.65Q27.85 54.92 27.85 52.99L27.85 45.83Q27.85 40.36 31.73 36.48Q35.6 32.61 41.08 32.61L54.49 32.61Q56.42 32.61 58.16 33.09C56.03 31.22 53.3 30.18 50.47 30.18L37.05 30.18C30.63 30.18 25.43 35.39 25.43 41.81Z" />
+    <path
+        android:name="echo_1"
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M29.45 52.99L29.45 45.83C29.45 39.41 34.66 34.21 41.08 34.21L54.49 34.21C57.32 34.21 60.06 35.24 62.18 37.12Q60.45 36.63 58.52 36.63L45.1 36.63Q39.62 36.63 35.75 40.51Q31.88 44.38 31.88 49.86L31.88 57.01Q31.88 58.94 32.36 60.68C30.49 58.55 29.45 55.82 29.45 52.99Z" />
+    <path
+        android:name="sticker_body"
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M33.48 49.86L33.48 57.01C33.48 63.43 38.68 68.64 45.1 68.64L56.9 68.64L56.69 68.12C56.43 67.47 56.66 66.73 57.23 66.33Q63.5 62 67.83 55.73C68.23 55.15 68.98 54.93 69.63 55.19L70.14 55.4L70.14 49.86C70.14 43.44 64.94 38.23 58.52 38.23L45.1 38.23C38.68 38.23 33.48 43.44 33.48 49.86Z" />
+    <path
+        android:name="peel_corner"
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M69.07 56.58Q64.58 63.08 58.09 67.56L58.52 68.64C63.75 68.64 68.84 73.74 70.93 77.46Q71.66 77.95 72.08 77.76Q72.49 77.57 72.6 76.74C72.71 74.43 72.12 71.01 71.48 67.36C70.87 63.86 70.23 60.15 70.14 57.01L69.07 56.58Z" />
+    <path
+        android:name="accent_spark"
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M82.57 66.85Q79.5 67.71 78.64 70.78Q77.77 67.71 74.7 66.85Q77.77 65.98 78.64 62.91Q79.5 65.98 82.57 66.85Z" />
+</vector>

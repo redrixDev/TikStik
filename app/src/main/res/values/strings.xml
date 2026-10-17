@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Neutral marks, kept here so a translation can change them. -->
+    <string name="separator">" · "</string>
+    <string name="fraction">%1$d/%2$d</string>
+    <string name="more_count">+%1$d</string>
+    <string name="app_name" translatable="false">TikStik</string>
+    <string name="tiktok_name" translatable="false">TikTok</string>
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear_selection">Clear selection</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_done">Done</string>
+    <string name="action_next">Next</string>
+    <string name="action_open_settings">Open settings</string>
+    <string name="action_save">Save</string>
+    <string name="action_select_all">Select all</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_start">Get started</string>
+    <string name="cd_sticker">Sticker</string>
+    <string name="cd_expanded">Expanded</string>
+    <string name="cd_collapsed">Collapsed</string>
+    <string name="cd_selected">Selected</string>
+    <string name="cd_not_selected">Not selected</string>
+    <string name="cd_move_before">Move before</string>
+    <string name="cd_move_after">Move after</string>
+    <string name="cd_packs">Packs</string>
+    <string name="cd_settings">Settings</string>
+    <string name="badge_animated">Animated</string>
+    <string name="badge_in_pack">In a pack</string>
+    <string name="welcome_1_title">Your TikTok stickers, on WhatsApp</string>
+    <string name="welcome_1_body">Save them on TikTok. Use them on WhatsApp.</string>
+    <string name="welcome_2_title">Set it up once</string>
+    <string name="welcome_2_body">Two minutes. No account needed.</string>
+    <string name="welcome_2_body_legacy">One tap. No account needed.</string>
+    <string name="welcome_2_step1">Enable</string>
+    <string name="welcome_2_step2">Pair</string>
+    <string name="welcome_2_step3">Done</string>
+    <string name="welcome_2_step_allow">Allow</string>
+    <string name="welcome_page">Page %1$d of %2$d</string>
+    <string name="connect_title">Connect to TikTok</string>
+    <string name="connect_help_toggle">Need help?</string>
+    <string name="connect_dev_title">Turn on developer mode</string>
+    <string name="connect_dev_body">Tap \"Build number\" 7 times.</string>
+    <string name="connect_dev_action">Open settings</string>
+    <string name="connect_dev_help">Can\'t find it? Search for it in Settings.</string>
+    <string name="connect_pair_title">Pair TikStik</string>
+    <string name="connect_pair_body">Turn on \"Wireless debugging\" and tap \"Pair device with pairing code\". Type the code in the TikStik notification.</string>
+    <string name="connect_pair_action">Open wireless debugging</string>
+    <string name="connect_pair_waiting">Waiting for the code…</string>
+    <string name="connect_pair_help">You type the code in a TikStik notification, so notifications must be on.</string>
+    <string name="connect_help_title">Help</string>
+    <string name="connect_help_video">Watch video</string>
+    <string name="connect_help_notifications">Turn on notifications</string>
+    <string name="connect_help_notifications_on">Notifications on</string>
+    <string name="connect_pair_wifi">Wi-Fi needed</string>
+    <string name="connect_finish_title">Last step</string>
+    <string name="connect_finish_body">With wireless debugging on, tap Finish.</string>
+    <string name="connect_finish_action">Finish</string>
+    <string name="connect_storage_title">Allow access</string>
+    <string name="connect_storage_body">Only to read TikTok\'s stickers.</string>
+    <string name="connect_storage_action">Allow</string>
+    <string name="connect_done_title">All set!</string>
+    <string name="connect_done_body">You can import your stickers now.</string>
+    <string name="connect_done_manual_body">Before importing, turn on \"Wireless debugging\".</string>
+    <string name="connect_manual_notice">Your phone won\'t let TikStik turn on debugging. You can still import if you turn it on yourself.</string>
+    <string name="connect_storage_blocked">Android won\'t ask again. Turn it on in TikStik\'s permissions.</string>
+    <string name="help_samsung_build">On Samsung: Settings &gt; About phone &gt; Software information.</string>
+    <string name="help_xiaomi_build">On Xiaomi: Settings &gt; About phone &gt; Detailed info and specs, then tap \"OS version\".</string>
+    <string name="help_xiaomi_notifications">If you can\'t type the code, set the notification style to \"Android\" (Settings &gt; Notifications).</string>
+    <string name="help_xiaomi_grant">On Xiaomi, also turn on \"USB debugging (Security options)\" in Developer options.</string>
+    <string name="help_oppo_grant">On OPPO, realme and OnePlus, turn off \"Permission monitoring\" in Developer options and restart the phone.</string>
+    <string name="connect_done_action">Let\'s go</string>
+    <string name="connect_notifications_denied">Turn on TikStik notifications to type the code.</string>
+    <string name="mock_build_number">Build number</string>
+    <string name="mock_dev_toast">You are now a developer!</string>
+    <string name="mock_pair_dialog">Pairing code</string>
+    <string name="mock_pair_field">Code</string>
+    <string name="home_import">Import from TikTok</string>
+    <string name="home_connect_action">Connect to TikTok</string>
+    <string name="home_no_tiktok">TikTok isn\'t installed.</string>
+    <string name="home_reading_start">Connecting…</string>
+    <string name="home_reading_search">Searching…</string>
+    <string name="import_err_cut">The connection to TikTok dropped</string>
+    <string name="home_reading">Reading %1$d/%2$d</string>
+    <string name="home_reviewing">Checking %1$d/%2$d</string>
+    <string name="filter_still">Still</string>
+    <string name="filter_animated">Animated</string>
+    <string name="home_none_still">No still stickers yet</string>
+    <string name="home_none_animated">No animated stickers yet</string>
+    <string name="home_none_body">Import from TikTok to bring them.</string>
+    <string name="home_preparing">Preparing for WhatsApp: %1$d of %2$d</string>
+    <string name="home_empty_title">No stickers yet</string>
+    <string name="home_empty_body">Open your stickers on TikTok, then tap Import.</string>
+    <string name="selection_add">Add</string>
+    <string name="selection_add_description">Add to a pack</string>
+    <string name="pack_choice_title">Which pack?</string>
+    <string name="pack_choice_new">New pack</string>
+    <string name="pack_choice_room">%1$d of 30</string>
+    <string name="pack_choice_has_them">Already has them</string>
+    <string name="pack_added_none">None could be added</string>
+    <string name="selection_delete_body">Your packs won\'t change.</string>
+    <string name="import_tab_new">To add</string>
+    <string name="import_tab_owned">Already yours</string>
+    <string name="import_empty_new">Nothing new to add</string>
+    <string name="import_empty_owned">None of yours is on TikTok right now</string>
+    <string name="import_select_all">Choose all</string>
+    <string name="import_select_none">Clear all</string>
+    <string name="import_saved_none">They were already in your collection.</string>
+    <string name="import_none">No stickers found. Open your stickers on TikTok and try again.</string>
+    <string name="import_partial">Couldn\'t read %1$d of %2$d.</string>
+    <string name="create_title">Create packs</string>
+    <string name="create_new_pack">Still sticker pack</string>
+    <string name="create_new_pack_animated">Animated pack</string>
+    <string name="create_name_hint">%1$s 1, %1$s 2…</string>
+    <string name="create_action">Create packs</string>
+    <string name="howto_help">Help?</string>
+    <!-- Placeholders until the videos exist: one per language. -->
+    <string name="video_howto_url" tools:ignore="Typos">https://youtube.com/shorts/rKWr1JuD1CM</string>
+    <string name="video_connect_url">https://youtube.com/shorts/T_DplDE9YXk</string>
+    <string name="donate_url" translatable="false">https://ko-fi.com/redrixdev</string>
+    <string name="privacy_policy_url">https://tikstik.redrix.dev/en/privacy/</string>
+    <string name="howto_title">It\'s this easy</string>
+    <string name="howto_1_title">See the sticker on TikTok</string>
+    <string name="howto_1_body">In comments, messages, etc.</string>
+    <string name="howto_2_title">Come back and tap Import</string>
+    <string name="howto_2_body">TikStik finds the ones you saw.</string>
+    <string name="howto_3_title">Pick and save</string>
+    <string name="howto_3_body">They show up first in your collection.</string>
+    <string name="howto_done">Got it</string>
+    <string name="howto_mock_tiktok">Comments</string>
+    <string name="howto_mock_import">Import</string>
+    <string name="howto_mock_review">To add</string>
+    <string name="howto_mock_add">Add</string>
+    <string name="settings_howto">How it works</string>
+    <!-- Always 5 and 100 (PackLimits): never singular. -->
+    <string name="create_limit" tools:ignore="PluralsCandidate">Up to %1$d packs. The rest stays selected.</string>
+    <string name="create_limit_full" tools:ignore="PluralsCandidate">You have %1$d packs, the maximum. Delete one to create another.</string>
+    <string-array name="prep_fun">
+        <item>Adding the final touches…</item>
+        <item>Combing the stickers…</item>
+        <item>Shrinking pixels…</item>
+        <item>Making them look good…</item>
+        <item>Dusting them off…</item>
+        <item>Folding the corners…</item>
+        <item>Sweet-talking WhatsApp…</item>
+        <item>Squeezing the suitcase…</item>
+        <item>Counting pixels…</item>
+        <item>A bit of magic…</item>
+        <item>Ironing out wrinkles…</item>
+        <item>Cutting along the line…</item>
+        <item>Peeling them off carefully…</item>
+        <item>Polishing them up…</item>
+        <item>Winding up the animated ones…</item>
+        <item>This is going to look great…</item>
+        <item>Smells like stickers already…</item>
+        <item>Almost chat-ready…</item>
+    </string-array>
+    <string name="prep_almost">Almost there…</string>
+    <string name="prep_sheet_title">Preparing stickers for WhatsApp</string>
+    <string name="prep_background">It keeps going in the background: you can close this.</string>
+    <string name="action_got_it">Got it</string>
+    <string name="cache_denied_title">Your Android won\'t let TikStik read TikTok</string>
+    <string name="cache_denied_body">Your version (Android %1$s, build %2$s) doesn\'t let TikStik read the stickers over wireless debugging. Look for a system update and try again.</string>
+    <string name="create_done_title">Packs ready!</string>
+    <string name="create_nothing">No pack could be created</string>
+    <string name="create_nothing_body">Your stickers are still in your collection. Try again.</string>
+    <string name="skip_convert">Couldn\'t be prepared</string>
+    <string name="skip_tray">Pack not created</string>
+    <string name="create_done_add">Add to %1$s</string>
+    <string name="create_done_view">View packs</string>
+    <string name="pack_name_default">TikStik</string>
+    <string name="pack_name">%1$s %2$d</string>
+    <string name="wa_consumer">WhatsApp</string>
+    <string name="wa_business">WhatsApp Business</string>
+    <string name="wa_not_installed">WhatsApp isn\'t installed</string>
+    <string name="wa_rejected">WhatsApp rejected the pack.</string>
+    <string name="wa_open_failed">Couldn\'t open WhatsApp.</string>
+    <string name="packs_title">Packs</string>
+    <string name="packs_in_whatsapp_of">On WhatsApp: %1$d of %2$d</string>
+    <string name="packs_room_info">Why this maximum</string>
+    <string name="packs_room_whatsapp">WhatsApp only allows 10 packs per app at a time, however many you have in TikStik.</string>
+    <string name="packs_filter_all">All</string>
+    <string name="packs_filter_animated">Animated</string>
+    <string name="packs_filter_still">Still</string>
+    <string name="packs_filter_in">On WhatsApp</string>
+    <string name="packs_filter_out">Not added</string>
+    <string name="packs_filter_none">No packs here</string>
+    <string name="packs_filter_none_body">Try another filter.</string>
+    <string name="limit_title">WhatsApp allows 10 TikStik packs</string>
+    <string name="limit_body">To add more, remove a TikStik pack from your WhatsApp stickers.</string>
+    <string name="limit_open">Open %1$s</string>
+    <string name="packs_empty_title">No packs yet</string>
+    <string name="packs_empty_body">Pick stickers and tap \"Add\".</string>
+    <string name="packs_pick_title">Pick a pack</string>
+    <string name="packs_pick_body">Its stickers will show up here.</string>
+    <string name="pack_animated">Animated</string>
+    <string name="pack_status_in">In %1$s</string>
+    <string name="pack_rename">Rename</string>
+    <string name="pack_rename_title">Pack name</string>
+    <string name="pack_add_to">Add to %1$s</string>
+    <string name="pack_add_also">Also add to %1$s</string>
+    <string name="pack_remove_min">WhatsApp needs at least 3 stickers</string>
+    <string name="pack_remove_last">Keep at least 1 sticker</string>
+    <string name="pack_remove_min_message">A pack on WhatsApp needs at least 3 stickers.</string>
+    <string name="pack_updated">Pack updated</string>
+    <string name="pack_delete">Delete pack</string>
+    <string name="pack_delete_title">Delete \"%1$s\"?</string>
+    <string name="pack_delete_body">Your stickers stay in your collection.</string>
+    <string name="slot_add">Add stickers</string>
+    <string name="add_stickers_title">Add to \"%1$s\"</string>
+    <string name="add_stickers_none_animated">No more animated stickers.</string>
+    <string name="add_stickers_none_still">No more still stickers.</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_connection">TikTok</string>
+    <string name="settings_connect">Set up</string>
+    <string name="settings_revoke">Disconnect</string>
+    <string name="settings_revoke_title">Disconnect from TikTok?</string>
+    <string name="settings_revoke_body">You\'ll need to set it up again to import.</string>
+    <string name="settings_section_packs">Packs</string>
+    <string name="settings_pack_name">Pack name</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_privacy_policy">Privacy policy</string>
+    <string name="settings_licenses">Licenses</string>
+    <string name="settings_about">About TikStik</string>
+    <string name="settings_support">Support the project</string>
+    <string name="settings_support_body">Every sticker you bring over makes me smile. If you can, help me keep this going.</string>
+    <string name="settings_support_cta">Support</string>
+    <string name="settings_section_updates">Updates</string>
+    <string name="settings_updates_auto">Check for updates</string>
+    <string name="settings_updates_auto_body">Once a day, sending no data</string>
+    <string name="settings_updates_check">Check now</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_update_available">Version %1$s available</string>
+    <string name="update_none">You already have the latest version.</string>
+    <string name="update_check_failed">Could not check. Is there a connection?</string>
+    <string name="update_title">New version: %1$s</string>
+    <string name="update_size">%1$s to download</string>
+    <string name="update_action">Update</string>
+    <string name="update_later">Later</string>
+    <string name="update_downloading">Downloading…</string>
+    <string name="update_ready">Downloaded. Android will ask you to confirm; your stickers and packs stay.</string>
+    <string name="update_install">Install</string>
+    <string name="update_allow">To install it, allow TikStik to install apps in the setting that opens.</string>
+    <string name="update_allow_action">Allow and install</string>
+    <string name="update_failed">The update could not be downloaded. Try again later.</string>
+    <string name="update_retry">Try again</string>
+    <string name="privacy_1_title">Your stickers, on your phone</string>
+    <string name="privacy_1_body">No TikStik servers.</string>
+    <string name="privacy_2_title">Your backup, in your Drive</string>
+    <string name="privacy_2_body">In a private folder only TikStik can see.</string>
+    <string name="privacy_3_title">It only reads what you ask</string>
+    <string name="privacy_3_body">When you import, it only looks for your stickers in TikTok\'s cache.</string>
+    <string name="privacy_4_title">You\'re in control</string>
+    <string name="privacy_4_body">Revoke access anytime.</string>
+    <string name="privacy_5_title">New-version notices</string>
+    <string name="privacy_5_body">Once a day it checks GitHub, sending no data. Turn it off in Settings.</string>
+    <string name="settings_section_account">Account</string>
+    <string name="account_connect">Continue with Google</string>
+    <string name="account_connecting">Signing in…</string>
+    <string name="account_connect_failed">Couldn\'t sign in with Google.</string>
+    <string name="account_disconnect">Sign out</string>
+    <string name="account_disconnect_title">Sign out?</string>
+    <string name="account_disconnect_body">Your backup stays in your Drive but stops updating.</string>
+    <string name="account_merge_title">Merge with this account?</string>
+    <string name="account_merge_body">This phone has packs from another Google account. If you continue, they will also be saved to %1$s.</string>
+    <string name="account_merge">Merge</string>
+    <string name="backup_last">Last backup: %1$s</string>
+    <string name="backup_never">No backup yet</string>
+    <string name="backup_working_plain">Backing up…</string>
+    <string name="restore_working_plain">Restoring…</string>
+    <string name="backup_now">Back up now</string>
+    <string name="backup_auto">It backs up automatically after every change.</string>
+    <string name="backup_done">Backup done</string>
+    <string name="restore_failed">Couldn\'t restore the backup.</string>
+    <string name="backup_sign_out_failed">Couldn\'t make the last backup. Your changes are still on your phone.</string>
+    <string name="backup_err_network">Offline. It\'ll back up when you\'re back.</string>
+    <string name="backup_err_sign_in">Reconnect your Google account.</string>
+    <string name="backup_err_full">Your Google Drive is full.</string>
+    <string name="backup_err_failed">Couldn\'t back up. Try again later.</string>
+    <string name="backup_err_newer">Your backup was made by a newer TikStik. Update the app to keep backing up.</string>
+    <string name="account_sign_in">Sign in with Google</string>
+    <string name="account_sign_in_body">Your packs, backed up in your Google Drive</string>
+    <string name="account_title">Your account</string>
+    <string name="account_benefit_drive">Your packs, saved in your Google Drive</string>
+    <string name="account_benefit_recover">Your packs come back by themselves</string>
+    <string name="account_no_signup">Nothing to create: you use your Google account.</string>
+    <string name="drive_name">Google Drive</string>
+    <string name="licenses_open_source">View project</string>
+    <string name="about_body">Your TikTok stickers, on WhatsApp.</string>
+    <string name="about_website">TikStik website</string>
+    <string name="about_disclaimer">Not affiliated with TikTok or WhatsApp.</string>
+    <string name="pair_channel_wait">Pairing</string>
+    <string name="pair_channel_code">Pairing code</string>
+    <string name="pair_wait_title">Open \"Pair device with pairing code\"</string>
+    <string name="pair_wait_text">We\'ll pop up here so you can type the code.</string>
+    <string name="pair_code_title">Type the code here</string>
+    <string name="pair_code_retry">Wrong code. Try again</string>
+    <string name="pair_code_text">The 6 digits on your screen.</string>
+    <string name="pair_code_label">Code</string>
+    <string name="pair_code_action">Type code</string>
+    <string name="pair_working">Pairing…</string>
+    <string name="pair_done_title">TikStik paired!</string>
+    <string name="pair_done_text">Go back to the app to import.</string>
+    <string name="pair_timeout_title">Go back to TikStik to continue</string>
+    <string name="pair_timeout_text">The wait stopped. It resumes when you\'re back.</string>
+    <string name="err_not_configured">Connect to TikTok first.</string>
+    <string name="err_no_wifi">Connect to Wi-Fi.</string>
+    <string name="err_wireless_off">Turn on \"Wireless debugging\".</string>
+    <string name="err_wireless_off_first">Turn on wireless debugging</string>
+    <string name="import_allow_network">New Wi-Fi: in Android\'s prompt, tick \"Always allow on this network\" and accept.</string>
+    <string name="err_network_not_allowed">Wireless debugging must be allowed on this Wi-Fi. Import again and accept Android\'s prompt.</string>
+    <string name="err_connection">Couldn\'t connect. Check your Wi-Fi.</string>
+    <string name="err_pairing_lost">Connect to TikTok again.</string>
+    <string name="err_grant">Couldn\'t finish. Try again.</string>
+    <string name="import_err_failed">Couldn\'t import. Try again.</string>
+    <string name="pack_err_save">Couldn\'t save the change. Try again.</string>
+    <plurals name="selection_delete_title">
+        <item quantity="one">Delete %d sticker?</item>
+        <item quantity="other">Delete %d stickers?</item>
+    </plurals>
+    <plurals name="import_unreadable">
+        <item quantity="one">Couldn\'t read %d sticker from TikTok. Try again.</item>
+        <item quantity="other">Couldn\'t read %d stickers from TikTok. Try again.</item>
+    </plurals>
+    <plurals name="import_saved">
+        <item quantity="one">%d sticker added</item>
+        <item quantity="other">%d stickers added</item>
+    </plurals>
+    <plurals name="import_save_and_add">
+        <item quantity="one">Add %d sticker</item>
+        <item quantity="other">Add %d stickers</item>
+    </plurals>
+    <plurals name="pack_count">
+        <item quantity="one">%d sticker</item>
+        <item quantity="other">%d stickers</item>
+    </plurals>
+    <plurals name="pack_remove">
+        <item quantity="one">Remove %d</item>
+        <item quantity="other">Remove %d</item>
+    </plurals>
+    <plurals name="sel_animated">
+        <item quantity="one">%d animated</item>
+        <item quantity="other">%d animated</item>
+    </plurals>
+    <plurals name="sel_still">
+        <item quantity="one">%d still</item>
+        <item quantity="other">%d still</item>
+    </plurals>
+    <plurals name="pack_choice_fits">
+        <item quantity="one">%d fits</item>
+        <item quantity="other">All %d fit</item>
+    </plurals>
+    <plurals name="pack_choice_new_count">
+        <item quantity="one">Makes %d pack</item>
+        <item quantity="other">Makes %d packs</item>
+    </plurals>
+    <plurals name="pack_added_to">
+        <item quantity="one">%1$d added to “%2$s”</item>
+        <item quantity="other">%1$d added to “%2$s”</item>
+    </plurals>
+    <plurals name="pack_already_in">
+        <item quantity="one">Already in “%2$s”</item>
+        <item quantity="other">Already in “%2$s”</item>
+    </plurals>
+    <plurals name="pack_left_no_room">
+        <item quantity="one"> · %d doesn\'t fit, still selected</item>
+        <item quantity="other"> · %d don\'t fit, still selected</item>
+    </plurals>
+    <plurals name="pack_wa_needs">
+        <item quantity="one">Add %d more to send it to WhatsApp</item>
+        <item quantity="other">Add %d more to send it to WhatsApp</item>
+    </plurals>
+    <plurals name="pack_stickers_added">
+        <item quantity="one">%d sticker added</item>
+        <item quantity="other">%d stickers added</item>
+    </plurals>
+    <plurals name="add_stickers_room">
+        <item quantity="one">Room for %d more</item>
+        <item quantity="other">Room for %d more</item>
+    </plurals>
+    <plurals name="add_stickers_action">
+        <item quantity="one">Add %d</item>
+        <item quantity="other">Add %d</item>
+    </plurals>
+    <plurals name="backup_restored">
+        <item quantity="one">%d sticker restored</item>
+        <item quantity="other">%d stickers restored</item>
+    </plurals>
+    <plurals name="backup_packs">
+        <item quantity="one">%d pack</item>
+        <item quantity="other">%d packs</item>
+    </plurals>
+    <plurals name="backup_not_fit">
+        <item quantity="one">%1$d pack from your backup doesn\'t fit (%2$d max). It stays saved and will arrive when you make room.</item>
+        <item quantity="other">%1$d packs from your backup don\'t fit (%2$d max). They stay saved and will arrive when you make room.</item>
+    </plurals>
+    <plurals name="backup_restored_packs">
+        <item quantity="one">%d pack restored</item>
+        <item quantity="other">%d packs restored</item>
+    </plurals>
+    <plurals name="backup_working">
+        <item quantity="one">Backing up %1$d of %2$d sticker…</item>
+        <item quantity="other">Backing up %1$d of %2$d stickers…</item>
+    </plurals>
+    <plurals name="restore_working">
+        <item quantity="one">Restoring %1$d of %2$d sticker…</item>
+        <item quantity="other">Restoring %1$d of %2$d stickers…</item>
+    </plurals>
+    <plurals name="pack_choice_partial">
+        <item quantity="one">Only %1$d of %2$d fits</item>
+        <item quantity="other">Only %1$d of %2$d fit</item>
+    </plurals>
+</resources>

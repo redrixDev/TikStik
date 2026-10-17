@@ -1,0 +1,2 @@
+# LGPL-3.0: spake2-android stays intact, not renamed, merged or repackaged, so it can be replaced.
+-keep class io.github.muntashirakon.crypto.spake2.** { *; }

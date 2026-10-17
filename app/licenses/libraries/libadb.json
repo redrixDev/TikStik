@@ -1,0 +1,9 @@
+{
+  "uniqueId": "com.github.MuntashirAkon:libadb-android",
+  "name": "libadb-android",
+  "website": "https://github.com/MuntashirAkon/libadb-android",
+  "licenses": [
+    "Apache-2.0",
+    "libadb-bsd-3-clause"
+  ]
+}

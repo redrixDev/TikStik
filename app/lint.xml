@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="TrustAllX509TrustManager">
+        <!-- Inside libadb: the phone's own adbd uses a self-signed certificate and trust comes from pairing. -->
+        <ignore regexp="libadb-android-3\.1\.1" />
+    </issue>
+</lint>

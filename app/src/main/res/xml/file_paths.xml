@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Only the downloaded update is handed out, to the system installer. -->
+<paths>
+    <files-path
+        name="update"
+        path="update/" />
+</paths>

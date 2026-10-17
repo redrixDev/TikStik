@@ -1,0 +1,9 @@
+{
+  "uniqueId": "vendored:libwebp",
+  "name": "libwebp",
+  "artifactVersion": "1.6.0",
+  "website": "https://chromium.googlesource.com/webm/libwebp",
+  "licenses": [
+    "libwebp-bsd-3-clause"
+  ]
+}

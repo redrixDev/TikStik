@@ -1,0 +1,9 @@
+/* SPDX-FileCopyrightText: 2026 redrixDev */
+/* SPDX-License-Identifier: GPL-3.0-or-later */
+
+LIBTIKCODEC {
+  global:
+    Java_*;
+  local:
+    *;
+};

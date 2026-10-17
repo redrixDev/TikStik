@@ -1,0 +1,8 @@
+{
+  "uniqueId": "com.redrixdev:tikstik",
+  "name": "TikStik",
+  "website": "https://github.com/redrixDev/TikStik",
+  "licenses": [
+    "tikstik-gpl-3.0-or-later"
+  ]
+}

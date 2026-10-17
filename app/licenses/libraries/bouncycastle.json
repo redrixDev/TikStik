@@ -1,0 +1,6 @@
+{
+  "uniqueId": "org.bouncycastle:bcprov-jdk15to18",
+  "licenses": [
+    "bouncycastle-licence"
+  ]
+}

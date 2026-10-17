@@ -1,0 +1,9 @@
+{
+  "uniqueId": "vendored:giflib",
+  "name": "giflib",
+  "artifactVersion": "6.1.3",
+  "website": "https://giflib.sourceforge.net/",
+  "licenses": [
+    "giflib-mit"
+  ]
+}

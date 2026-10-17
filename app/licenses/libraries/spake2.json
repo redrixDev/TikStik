@@ -1,0 +1,8 @@
+{
+  "uniqueId": "com.github.MuntashirAkon.spake2-java:spake2-android",
+  "name": "spake2-android",
+  "website": "https://github.com/MuntashirAkon/spake2-java",
+  "licenses": [
+    "spake2-lgpl-3.0"
+  ]
+}
